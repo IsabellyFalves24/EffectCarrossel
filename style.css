@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient( rgba(0, 195, 255, 0.382), rgba(255, 0, 55, 0.784));
+}
+
+.carrossel {
+    max-width: 650px;
+    overflow: hidden; /*Oculta oque transborda do limitedo carrossel*/
+    box-shadow: rgba(46, 149, 240, 0.5) -10px 10px, rgba(46, 101, 240, 0.4) -15px 15px, rgba(49, 46, 240, 0.3) -20px 20px, rgba(46, 146, 240, 0.2) -25px 25px, rgba(46, 65, 240, 0.1) -30px 30px;
+    border-radius: 20px;
+}
+
+.slides {
+    display: flex;
+    
+}
+
+.slides img {
+    display: block;
+    max-width: 100%;
+}
+
